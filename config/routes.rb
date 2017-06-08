@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  resources :reactions
-  resources :headlines
   scope :api do
+    resources :reactions
+    resources :headlines
     resources :users
     post 'register', to: 'authentications#register'
     post 'login', to: 'authentications#login'
