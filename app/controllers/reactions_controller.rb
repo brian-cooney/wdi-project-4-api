@@ -15,7 +15,7 @@ class ReactionsController < ApplicationController
 
   # POST /reactions
   def create
-    @reaction = Reaction.new(reaction_params)
+    @reaction = @current_user.reactions.new(reaction_params)
 
     if @reaction.save
       render json: @reaction, status: :created, location: @reaction

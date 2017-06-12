@@ -1,5 +1,5 @@
 class ReactionSerializer < ActiveModel::Serializer
-  attributes :id, :url
+  attributes :id, :url, :user, :created_at
   has_one :user
   has_one :headline
 

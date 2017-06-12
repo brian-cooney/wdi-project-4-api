@@ -26,7 +26,7 @@ skip_before_action :authenticate_user!
   private
   def user_params
     hash = {}
-    hash.merge! params.slice(:user_name, :email, :password, :password_confirmation).permit!
+    hash.merge! params.slice(:user_name, :image, :email, :password, :password_confirmation).permit!
     hash
   end
 end
