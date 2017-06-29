@@ -12,7 +12,7 @@ u2 = User.create!(user_name: "sarah", image: "https://cdn3.iconfinder.com/data/i
 
 h1 = Headline.create!(
  title: "Donald Trump: 'No change' to UK state visit plans, says No 10",
- image: "https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/14F7/production/_96376350_p0555wj0.jpg",
+ image: "https://ichef.bbci.co.uk/news/1024/cpsprodpb/12BA1/production/_96450767_hi039802575.jpg",
  content: "No 10 says the state visit is still planned after reports he wanted to wait and avoid protests.",
  source: "BBC News",
  url: "https://ichef.bbci.co.uk/news/1024/cpsprodpb/9C44/production/_96440004_mediaitem96440003.jpg",
